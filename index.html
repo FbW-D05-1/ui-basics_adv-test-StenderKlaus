@@ -54,19 +54,71 @@
         <section class="information">
             <h2>Our Laptops</h2>
             <!-- table -->
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Lenovo</th>
+                    <th>Dell</th>
+                    <th>Macbook</th>
+                </tr>
+                <tr>
+                    <th>OS</td>
+                    <td>Ubuntu</td>
+                    <td>Microsoft</td>
+                    <td>MacOS</td>
+                </tr>
+                <tr>
+                    <th>Price</th>
+                    <td>$ 350</td>
+                    <td>$ 450</td>
+                    <td>$ 550</td>
+                </tr>
+                <tr>
+                    <th>Color</th>
+                    <td>Black</td>
+                    <td>White</td>
+                    <td>Silver</td>
+                </tr>
+                <tr>
+                    <th>RAM</th>
+                    <td>4GB</td>
+                    <td>16GB</td>
+                    <td>8GB</td>
+                </tr>
+            </table>
         </section>
 
         <!-- Contact Form -->
         <section class="contact">
             <h2>Contact Us!</h2>
             <!-- form -->
+            <form action="#">
+                <label for="name">Who are you</label>
+                <input type="text" id="name" name="name" minlength="1" placeholder="Please fill in your full name">
+                <label for="email">Tell us how to contact you</label>
+                <input type="email" name="email" id="email" minlength="5" placeholder="Please enter your email">
+                <label for="textarea">How can we help you?</label>
+                <textarea name="textarea" id="area" cols="30" rows="10" minlength="1"
+                    placeholder="Send us a message!"></textarea>
+                <button type="submit" class="submit-btn ">Submit</button>
+            </form>
         </section>
 
         <!-- Footer Links -->
         <footer>
-            <h2>Do you want to follow us?</h2> 
+            <h2>Do you want to follow us?</h2>
             <h3>Check out our social media pages!</h3>
-            <!-- footer links -->
+            <ul class="icon-list">
+                <li class="icon">
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li class="icon">
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li class="icon">
+                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </li>
+              </ul>
         </footer>
     </main>
 </body>
